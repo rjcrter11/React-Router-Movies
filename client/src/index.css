@@ -35,6 +35,18 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.saved-list a {
+  text-decoration: none;
+}
+.saved-list a.active {
+  text-decoration: none;
+  border: 1px solid lightseagreen;
+  background-color: rgba(32, 178, 171, 0.479);
+  color: black;
+}
+.saved-list a.active:hover {
+  background-color: white;
+}
 
 .saved-list h3 {
   margin-right: 10px;
@@ -43,6 +55,7 @@ body {
 .saved-movie {
   margin: 0 10px;
 }
+
 .saved-active {
   color: blue;
   border: 1px solid grey;
